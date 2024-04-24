@@ -1,0 +1,85 @@
+#app-title{
+  font-size: 50px;
+  padding-left: 20px;
+}
+
+.power-button{
+  font-size: 40px;
+}
+
+#title{
+  font-size: 30px;
+}
+
+.queue row:not(.current-song):hover {
+  background-color: unset; 
+}
+
+.current-song, .current-song:hover {
+  background-color: #181820;
+}
+
+window{
+  /* all: unset; */
+  background-color: transparent;
+}
+
+.playlist-button{
+  all: unset;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.list-row{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.song-list-row, .playlist-list-row{
+  border-bottom: 1px solid #181820;
+}
+
+.song-label, .playlist-label{
+  font-size: 20px;
+}
+
+.delete{
+  color: #f30000;
+}
+
+.control-button{
+  all: unset;
+  padding: 5px 25px 10px;
+  font-size: 30px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#song-name{
+  font-size: 30px;
+}
+
+#song-artist{
+  font-size: 20px;
+}
+
+.active{
+  background-color: #15539e;
+}
+
+.not-transparent{
+   background-color: #0f0f17;
+   border-radius: 10px;
+}
+
+:not(.delete):not(.active){
+  color: white;
+}
+
+.song-button{
+  all: unset;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 23px;
+}
